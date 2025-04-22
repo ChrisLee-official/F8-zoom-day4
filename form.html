@@ -4,13 +4,85 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Register</title>
     <link rel="stylesheet" href="./CSS/reset.css">
     <link rel="stylesheet" href="./CSS/style.css">
 </head>
 
 <body>
-
+    <div class="form-container">
+        <div class="h1">
+            <span>CREATE NEW ACCOUNT</span>
+        </div>
+        <form action="" class="form">
+            <div class="form-group">
+                <label class="form-label" for="Display-name">Display Name </label>
+                <input class="form-input" type="text" id="Display-name"
+                    placeholder="Tên hiển thị của bạn trên trang (có thể là biệt danh, tên thật, v.v.)">
+            </div>
+            <div class="form-group">
+                <label class="form-label" for="Email">Email</label>
+                <input class="form-input" type="email" id="Email" placeholder="Điền email của bạn">
+            </div>
+            <div class="form-group">
+                <label class="form-label" for="Phone-Number">Phone Number</label>
+                <input class="form-input" type="text" id="Phone-Number" placeholder="Số điện thoại">
+            </div>
+            <div class="form-group">
+                <label class="form-label" for="Password">Password</label>
+                <input class="form-input" type="password" id="Password" placeholder="Mật khẩu">
+            </div>
+            <div class="form-group">
+                <label class="form-label" for="Confirm-Password"> Confirm Password</label>
+                <input class="form-input" type="password" id="Confirm-Password" placeholder="Nhập lại mật khẩu">
+            </div>
+            <div class="form-group">
+                <label class="form-label" for="Gender"> Gender</label>
+                <label for="Nam">
+                    <input type="radio" name="gender" id="Nam"> Nam
+                </label>
+                <label for="Nu">
+                    <input type="radio" name="gender" id="Nu"> Nữ
+                </label>
+                <label for="Other">
+                    <input type="radio" name="gender" id="Other"> Other
+                </label>
+            </div>
+            <div class="form-group">
+                <label class="form-label" for="Date-of-Birth">Date of Birth</label>
+                <input class="form-input" type="date" id="Date-of-Birth">
+            </div>
+            <div class="form-group">
+                <label class="form-label" for="Address">Address</label>
+                <input class="form-input" type="text" id="Address" placeholder="Địa chỉ hiện tại">
+            </div>
+            <div class="form-group">
+                <label class="form-label" for="Profile-Picture">Profile Picture</label>
+                <label for="Profile-Picture">
+                    <img src="./CSS/person.png" alt="avatar" class="avatar-img">
+                </label>
+                <input type="file" id="Profile-Picture" hidden>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-label" for="Communication-Preferences">Communication Preferences</label>
+                <label for="">
+                    <input type="checkbox" name="checkbox" value="Newsletter"> Subscribe to Newsletter (Nhận bản tin
+                    định
+                    kỳ)
+                </label>
+                <label for="">
+                    <input type="checkbox" name="checkbox" value="Promotional"> Receive Promotional Emails (Nhận
+                    thông tin
+                    khuyến mãi)
+                </label>
+                <label for="">
+                    <input type="checkbox" name="checkbox" value="Product"> Get Product Updates (Nhận cập nhật sản
+                    phẩm mới)
+                </label>
+            </div>
+            <button class="btn" type="submit">Sign up</button>
+        </form>
+    </div>
 </body>
 
 </html>

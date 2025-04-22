@@ -1,0 +1,74 @@
+/* CSS of CV.html */
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background-color: rgb(233, 203, 203);
+  line-height: 1.6;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+hr {
+  width: 80%;
+  margin: 0 auto 10px auto;
+  height: 2px;
+  background-color: black;
+  border-radius: 50px;
+  border: none;
+}
+
+.cv-main {
+  width: 1000px;
+  height: 2000px;
+  background-color: white;
+  margin: 30px auto;
+}
+
+.cv-header {
+  text-align: center;
+}
+
+.cv-main h1 {
+  font-size: 30px;
+  font-weight: bold;
+  padding: 40px 0px 0px;
+}
+.cv-main .cv-header p {
+  display: inline-block;
+}
+
+.cv-body {
+  margin: 20px 40px 0;
+  text-align: justify;
+}
+.cv-body h2 {
+  font-weight: bold;
+  margin: 0px 94px;
+  padding: 20px 0 0 0;
+}
+
+.cv-body h3 {
+  font-weight: bold;
+  text-align: justify;
+  display: inline-block;
+  margin: 0 6px;
+}
+
+.tittle {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 90px;
+}
+
+.cv-body ul {
+  list-style: disc;
+  margin: 10px 90px 0px 120px;
+}
+
+.cv-main .cv-footer p {
+  margin: 0 94px;
+}
+
+/* CSS of form */
